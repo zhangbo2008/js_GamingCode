@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+　<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="https://files.cnblogs.com/files/zhoujl-5071/jquery.rotate.js"></script>
+
+</head>
+
+<body>
+
+
+
+<img src="1.png" id="container" class="icon"></img>
+
+
+<script>
+
+$('#container').rotate({
+    bind : {
+        mouseover : function(){
+             $('#container').rotate({animateTo: 180,duration:500});
+        }, mouseout : function(){
+               $('#container').rotate({animateTo: 0,duration:500});
+        }
+    }
+});
+
+</script>
+
+
+
+</body>
+</html>

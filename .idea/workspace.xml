@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d28ba48b-e2dc-49a4-a797-71e0ab9a4c21" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/jquery-html5-card-game/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/jquery-html5-card-game/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jquery-html5-card-game/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/jquery-html5-card-game/css/app.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,17 +19,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jquery-html5-card-game/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
+            <state relative-caret-position="145">
               <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jquery-html5-card-game/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="82" column="28" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
+            <state relative-caret-position="189">
+              <caret line="85" column="30" lean-forward="true" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jquery-html5-card-game/css/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="73" column="86" selection-start-line="73" selection-start-column="86" selection-end-line="73" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -61,6 +70,8 @@
       <find>deck</find>
       <find>moves</find>
       <find>fclick</find>
+      <find>.open1</find>
+      <find>.open</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -74,6 +85,7 @@
         <option value="$PROJECT_DIR$/color-sequence/js/index.js" />
         <option value="$PROJECT_DIR$/color-sequence/css/style.css" />
         <option value="$PROJECT_DIR$/jquery-html5-card-game/js/app.js" />
+        <option value="$PROJECT_DIR$/jquery-html5-card-game/css/app.css" />
       </list>
     </option>
   </component>
@@ -177,27 +189,28 @@
       <workItem from="1578985151908" duration="387000" />
       <workItem from="1578985686749" duration="915000" />
       <workItem from="1578986642202" duration="278000" />
-      <workItem from="1578987047209" duration="11616000" />
+      <workItem from="1578987047209" duration="12968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11616000" />
+    <option name="totallyTimeSpent" value="12968000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2497979" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.30728242" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.30728242" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -294,22 +307,10 @@
     <entry file="file://$PROJECT_DIR$/jquery-html5-card-game/img/geometry2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery-html5-card-game/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3011" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jquery-html5-card-game/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10854">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery-html5-card-game/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -322,8 +323,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery-html5-card-game/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="82" column="28" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
+        <state relative-caret-position="189">
+          <caret line="85" column="30" lean-forward="true" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery-html5-card-game/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery-html5-card-game/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="73" column="86" selection-start-line="73" selection-start-column="86" selection-end-line="73" selection-end-column="86" />
         </state>
       </provider>
     </entry>

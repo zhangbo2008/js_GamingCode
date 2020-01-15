@@ -7,7 +7,7 @@ var Myarr = ['fa-diamond','fa-diamond','fa-paper-plane-o','fa-paper-plane-o','fa
  * 显示页面上的卡片
  *   - 使用下面提供的 "shuffle" 方法对数组中的卡片进行洗牌
  *   - 循环遍历每张卡片，创建其 HTML
- *   - 将每张卡的 HTML 添加到页面
+ *   - 将每张卡的 HTML 添加到页面9
  */
 
 // 洗牌函数来自于 http://stackoverflow.com/a/2450976
@@ -24,6 +24,12 @@ function shuffle(array) {
 
     return array; 
 }
+
+
+
+
+
+
 //初始化函数，进入页面或重新开始时用到
 function run(){
     var Harr =  shuffle(Myarr); //"shuffle" 方法对数组中的卡片进行洗牌
@@ -40,8 +46,17 @@ function run(){
     sessionStorage.setItem("tt","xx");//用来判断当前匹配效果是否完成，xx为已完成
     $(".moves").html(0);//点击次数初始化赋值
 }
+
+
+
+
+
 function fclick(){
-    $("#deck li").click(function(){
+    $("#deck li").click(function()
+
+
+
+      {
         if($(this).hasClass("open")||$(this).hasClass("match")){
             return false;//如果当前卡片是打开或者已经匹配了的状态则点击无效
         }
@@ -65,7 +80,7 @@ function fclick(){
                     $(".open2").removeClass("show open2");
                     sessionStorage.setItem("tt","xx");
                     sessionStorage.setItem("pp",pp+1);
-                    if(pp==1){ //当匹配成功次数达到8，则匹配完成
+                    if(pp==8){ //当匹配成功次数达到8，则匹配完成
                         setTimeout(function(){
                             alert("你共用了"+ss+"步");
                         },500)
@@ -83,8 +98,17 @@ function fclick(){
             //alert(1)
             $(this).addClass("open show open1");//第一个加上open1
         }
-    })
+    }
+
+
+
+    )
 }
+
+
+
+
+
 run()
 
 /*
